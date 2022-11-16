@@ -22,6 +22,8 @@ The project contains follow steps:
 
 7.data analysed using Tumbling, Sliding and Session Window for different aggregation analysis
 
+8.load stream data to Google cloud storage
+
 ## 1. Register Confluent Cloud account, and do some configuration in Confluent cloud, create a cluster and Api keys
 
 Confluent cloud is an platform for managed kafka service
@@ -172,6 +174,28 @@ Click a stream (a new topic) which join the clickstream with user lookup table, 
 Here is the newly build topic contain both clickstream and user information
 
 ![image](https://user-images.githubusercontent.com/98153604/202299861-4ec10584-e77d-4c8a-a1e6-74273a6db23b.png)
+
+## 6.New topic contain both clickstream and user information are connected to Google cloud databricks
+
+Here you can check the databricks notebook for the code how to join. There has databricks connector in confluent cloud show how the code to be set in databricks
+
+## 7.data analysed using Tumbling, Sliding and Session Window for different aggregation analysis
+
+The code details see databricks notebook
+
+![image](https://user-images.githubusercontent.com/98153604/202302032-103828d6-7fd9-4641-a41e-971cb495f5f9.png)
+
+## 8.load stream data to Google cloud storage
+
+The code details see databricks notebook
+
+result are:
+
+1.![image](https://user-images.githubusercontent.com/98153604/202302841-f09c1465-4818-4bf1-b0be-b06f13262510.png)
+![image](https://user-images.githubusercontent.com/98153604/202302872-fcf0fcf2-288e-4d9e-9e4c-7bb7ca05ca3f.png)
+
+
+
 
 
 
