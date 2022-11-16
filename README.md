@@ -8,7 +8,7 @@ In this project, I create a streaming data pipeline for customers clickstreams d
 
 The project contains follow steps:
 
-1.Confluent configuration, create a cluster, API keys
+1.Confluent cloud configuration, create a cluster, API keys
 
 2.Create 2 new Topics
 
@@ -20,7 +20,27 @@ The project contains follow steps:
 
 6.New topic contain both clickstream and user information are connected to Google cloud databricks
 
-7.data analysed using Tumbling, 
+7.data analysed using Tumbling, Sliding and Session Window for different aggregation analysis
+
+## 1. Register Confluent Cloud account, and do some configuration in Confluent cloud, create a cluster and Api keys
+
+Confluent cloud is an platform for managed kafka service
+
+![image](https://user-images.githubusercontent.com/98153604/202293662-65c6985e-7517-4f7c-911a-faafe9d702d4.png)
+Select Bacis level:
+![image](https://user-images.githubusercontent.com/98153604/202293722-524f47ae-a94b-4ff3-8f0c-f308637d4a17.png)
+
+Choose Google cloud and region, zone, help this fully managed kafka service held in different cloud platform
+
+![image](https://user-images.githubusercontent.com/98153604/202294170-383f9910-f02e-48c6-be6f-6a2a1ea5f5c5.png)
+
+![image](https://user-images.githubusercontent.com/98153604/202294290-9e1cfa5c-ec46-4fcf-b208-bea6b051ba52.png)
+
+
+![image](https://user-images.githubusercontent.com/98153604/202294359-d98c534c-9ee2-4135-80c0-c2ae39b10ec6.png)
+
+![image](https://user-images.githubusercontent.com/98153604/202294393-85befe9f-7978-4a59-82ad-be5b18cb7bf5.png)
+
 
 
 
