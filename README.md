@@ -110,21 +110,20 @@ I will use SQL to join user click stream data flow with user lookup data flow
 
 Firstly, I need to create a stream from topic clickstream
 
--- stream of user clicks:
-CREATE STREAM clickstream (
-  _time BIGINT,
-  time VARCHAR,
-  ip VARCHAR,
-  request VARCHAR,
-  status INT,
-  userid INT,
-  bytes BIGINT,
-  agent VARCHAR
-) WITH (
-  KAFKA_TOPIC = 'clickstream',
-  VALUE_FORMAT = 'JSON',
-  PARTITIONS = 4
-);
+            CREATE STREAM clickstream (
+              _time BIGINT,
+              time VARCHAR,
+              ip VARCHAR,
+              request VARCHAR,
+              status INT,
+              userid INT,
+              bytes BIGINT,
+              agent VARCHAR
+            ) WITH (
+              KAFKA_TOPIC = 'clickstream',
+              VALUE_FORMAT = 'JSON',
+              PARTITIONS = 4
+            );
 
 ![image](https://user-images.githubusercontent.com/98153604/202298825-4d2f3be1-e00d-4de7-b1cc-c7669baa2d9c.png)
 
