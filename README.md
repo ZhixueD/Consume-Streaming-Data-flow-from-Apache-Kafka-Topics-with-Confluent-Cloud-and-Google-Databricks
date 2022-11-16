@@ -90,6 +90,51 @@ I create 2 fake data flow, one is for customer click stream data, one is for use
 
 ![image](https://user-images.githubusercontent.com/98153604/202297580-3856c48c-b069-4f96-b131-cede7aa2dcf3.png)
 
+## 4.Create ksqlDB cluster in confluent cloud
+
+ksqlDB is a service in Confluent cloud, which can help us directly to handle streaming dataflow, to do some preliminary stream data transform, join by using SQL, and even create new topics.
+
+Firstly, I need to create new cluster for ksqlDB
+
+![image](https://user-images.githubusercontent.com/98153604/202298416-743c81b8-e915-4155-a6cd-52361b9a61ac.png)
+
+![image](https://user-images.githubusercontent.com/98153604/202298472-72f1aef2-077f-4d20-9431-755944f776fe.png)
+
+![image](https://user-images.githubusercontent.com/98153604/202298505-231d6bbc-41a7-4de4-8d27-848aa3347933.png)
+
+## 5.Create stream and look-up tables using ksqlDB AND Join them to create a new topic
+
+I will use SQL to join user click stream data flow with user lookup data flow
+
+![image](https://user-images.githubusercontent.com/98153604/202298618-c9adc8fe-86ae-48c3-b403-912c771aa490.png)
+
+Firstly, I need to create a stream from topic clickstream
+
+![image](https://user-images.githubusercontent.com/98153604/202298825-4d2f3be1-e00d-4de7-b1cc-c7669baa2d9c.png)
+
+Then, I need to create a lookup table from topic clickstream_users
+
+![image](https://user-images.githubusercontent.com/98153604/202298867-edd628cc-2264-42a7-886e-06ce3a3869fc.png)
+
+Click a stream (a new topic) which join the clickstream with user lookup table, here the partitions for clickstream and user lookup table should same
+
+![image](https://user-images.githubusercontent.com/98153604/202299723-f1527bd9-b20b-47d0-b25a-73b1b0232732.png)
+
+Here is the newly build topic contain both clickstream and user information
+
+![image](https://user-images.githubusercontent.com/98153604/202299861-4ec10584-e77d-4c8a-a1e6-74273a6db23b.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
