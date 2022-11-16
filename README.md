@@ -9,11 +9,17 @@ In this project, I create a streaming data pipeline for customers clickstreams d
 The project contains follow steps:
 
 1.Confluent configuration, create a cluster, API keys
+
 2.Create 2 new Topics
+
 3.Connect data producers with Topics
+
 4.Create ksqlDB cluster in confluent cloud
+
 5.Create stream and look-up tables using ksqlDB AND Join them to create a new topic
+
 6.New topic contain both clickstream and user information are connected to Google cloud databricks
+
 7.data analysed using Tumbling, 
 
 
