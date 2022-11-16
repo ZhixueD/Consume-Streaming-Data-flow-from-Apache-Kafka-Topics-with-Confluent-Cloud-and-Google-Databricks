@@ -191,8 +191,31 @@ The code details see databricks notebook
 
 result are:
 
-1.![image](https://user-images.githubusercontent.com/98153604/202302841-f09c1465-4818-4bf1-b0be-b06f13262510.png)
+1.
+
+![image](https://user-images.githubusercontent.com/98153604/202302841-f09c1465-4818-4bf1-b0be-b06f13262510.png)
 ![image](https://user-images.githubusercontent.com/98153604/202302872-fcf0fcf2-288e-4d9e-9e4c-7bb7ca05ca3f.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/98153604/202303034-271bc727-622e-4640-8456-aa1228de16fc.png)
+![image](https://user-images.githubusercontent.com/98153604/202303054-3d1ea325-7b36-4706-92c2-ea17c02ab450.png)
+
+3.
+
+![image](https://user-images.githubusercontent.com/98153604/202303093-49a28558-cb8f-4939-b6ff-17f4bbae8b57.png)
+![image](https://user-images.githubusercontent.com/98153604/202303115-605f5e11-7217-49b1-9ef2-395455139a2e.png)
+
+4.
+
+![image](https://user-images.githubusercontent.com/98153604/202303155-115d6a73-0239-463c-bfbf-0d2fc4721198.png)
+![image](https://user-images.githubusercontent.com/98153604/202303171-6366cb58-1e56-4514-9569-6c347fa590d9.png)
+
+
+
+
+
+
 
 
 
